@@ -112,7 +112,7 @@ def initialize():
     from random import randint
     for i in range(0, 25):
         n = Node()
-        n.id = randint(0, 1000)
+        n.id = randint(0, 2000)
         n.data = i
         numbers.append(n)
 
